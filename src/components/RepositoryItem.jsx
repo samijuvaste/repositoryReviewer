@@ -7,6 +7,7 @@ import StatInfo from './StatInfo';
 const styles = StyleSheet.create({
   item: {
     padding: 15,
+    backgroundColor: theme.colors.white,
   },
   pictureInfo: {
     flexDirection: 'row',
