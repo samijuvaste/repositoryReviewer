@@ -17,6 +17,7 @@ const TextInput = ({ style, error, ...props }) => {
     borderColor: error
       ? styles.error.borderColor
       : styles.normal.borderColor,
+    fontFamily: theme.fonts.main,
   };
 
   return <NativeTextInput style={textInputStyle} {...props} />;
